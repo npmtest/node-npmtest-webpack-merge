@@ -1,7 +1,5 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <title>Code coverage report for node-npmtest-webpack-merge/webpack-merge/lib/join-arrays-smart.js</title>
+<html lang="en"><head>
+    <title>Code coverage report for node-npmtest-webpack-merge/node_modules/webpack-merge/lib/join-arrays-smart.js</title>
     <meta charset="utf-8">
     <style>
         body, html {
@@ -194,7 +192,7 @@
     <h1 style="font-weight: bold;">
         <a href="https://github.com/npmtest/node-npmtest-webpack-merge">npmtest-webpack-merge (v0.0.1)</a>
     </h1>
-    <h1>Code coverage report for <span class="entity">node-npmtest-webpack-merge/webpack-merge/lib/join-arrays-smart.js</span></h1>
+    <h1>Code coverage report for <span class="entity">node-npmtest-webpack-merge/node_modules/webpack-merge/lib/join-arrays-smart.js</span></h1>
     <h2>
         
         Statements: <span class="metric">21.78% <small>(22 / 101)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -210,11 +208,11 @@
         
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
-    <div class="path"><a href="../../../index.html">All files</a> &#187; <a href="index.html">node-npmtest-webpack-merge/webpack-merge/lib/</a> &#187; join-arrays-smart.js</div>
+    <div class="path"><a href="../../../../index.html">All files</a> » <a href="index.html">node-npmtest-webpack-merge/node_modules/webpack-merge/lib/</a> » join-arrays-smart.js</div>
 </div>
 <div class="body">
 <pre><table class="coverage">
-<tr><td class="line-count">1
+<tbody><tr><td class="line-count">1
 2
 3
 4
@@ -533,91 +531,91 @@ var _isEqual2 = require('lodash/isEqual');
 &nbsp;
 var _isEqual3 = _interopRequireDefault(_isEqual2);
 &nbsp;
-var _slicedToArray = function () { <span class="fstat-no" title="function not covered" >function sliceIterator(arr, i) {</span> <span class="cstat-no" title="statement not covered" >var _arr = []; <span class="cstat-no" title="statement not covered" ></span>var _n = true; <span class="cstat-no" title="statement not covered" ></span>var _d = false; <span class="cstat-no" title="statement not covered" ></span>var _e = undefined; <span class="cstat-no" title="statement not covered" ></span>try { <span class="cstat-no" title="statement not covered" >for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { <span class="cstat-no" title="statement not covered" >_arr.push(_s.value); <span class="cstat-no" title="statement not covered" ></span>if (i &amp;&amp; _arr.length === i) <span class="cstat-no" title="statement not covered" >break; </span></span>} </span>} catch (err) { <span class="cstat-no" title="statement not covered" >_d = true; <span class="cstat-no" title="statement not covered" ></span>_e = err; </span>} finally { <span class="cstat-no" title="statement not covered" >try { <span class="cstat-no" title="statement not covered" >if (!_n &amp;&amp; _i["return"]) <span class="cstat-no" title="statement not covered" >_i["return"](); </span></span>} finally { <span class="cstat-no" title="statement not covered" >if (_d) <span class="cstat-no" title="statement not covered" >throw _e; </span></span>} </span>} <span class="cstat-no" title="statement not covered" ></span>return _arr; </span>} return <span class="fstat-no" title="function not covered" >function (arr, i) {</span> <span class="cstat-no" title="statement not covered" >if (Array.isArray(arr)) { <span class="cstat-no" title="statement not covered" >return arr; </span>} else <span class="cstat-no" title="statement not covered" >if (Symbol.iterator in Object(arr)) { <span class="cstat-no" title="statement not covered" >return sliceIterator(arr, i); </span>} else { <span class="cstat-no" title="statement not covered" >throw new TypeError("Invalid attempt to destructure non-iterable instance"); </span>} </span></span>}; }();
+var _slicedToArray = function () { <span class="fstat-no" title="function not covered">function sliceIterator(arr, i) {</span> <span class="cstat-no" title="statement not covered">var _arr = []; <span class="cstat-no" title="statement not covered"></span>var _n = true; <span class="cstat-no" title="statement not covered"></span>var _d = false; <span class="cstat-no" title="statement not covered"></span>var _e = undefined; <span class="cstat-no" title="statement not covered"></span>try { <span class="cstat-no" title="statement not covered">for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { <span class="cstat-no" title="statement not covered">_arr.push(_s.value); <span class="cstat-no" title="statement not covered"></span>if (i &amp;&amp; _arr.length === i) <span class="cstat-no" title="statement not covered">break; </span></span>} </span>} catch (err) { <span class="cstat-no" title="statement not covered">_d = true; <span class="cstat-no" title="statement not covered"></span>_e = err; </span>} finally { <span class="cstat-no" title="statement not covered">try { <span class="cstat-no" title="statement not covered">if (!_n &amp;&amp; _i["return"]) <span class="cstat-no" title="statement not covered">_i["return"](); </span></span>} finally { <span class="cstat-no" title="statement not covered">if (_d) <span class="cstat-no" title="statement not covered">throw _e; </span></span>} </span>} <span class="cstat-no" title="statement not covered"></span>return _arr; </span>} return <span class="fstat-no" title="function not covered">function (arr, i) {</span> <span class="cstat-no" title="statement not covered">if (Array.isArray(arr)) { <span class="cstat-no" title="statement not covered">return arr; </span>} else <span class="cstat-no" title="statement not covered">if (Symbol.iterator in Object(arr)) { <span class="cstat-no" title="statement not covered">return sliceIterator(arr, i); </span>} else { <span class="cstat-no" title="statement not covered">throw new TypeError("Invalid attempt to destructure non-iterable instance"); </span>} </span></span>}; }();
 &nbsp;
-function _interopRequireDefault(obj) { return obj &amp;&amp; obj.__esModule ? <span class="branch-0 cbranch-no" title="branch not covered" >obj </span>: { default: obj }; }
+function _interopRequireDefault(obj) { return obj &amp;&amp; obj.__esModule ? <span class="branch-0 cbranch-no" title="branch not covered">obj </span>: { default: obj }; }
 &nbsp;
-<span class="fstat-no" title="function not covered" >function _toConsumableArray(arr) {</span> <span class="cstat-no" title="statement not covered" >if (Array.isArray(arr)) { <span class="cstat-no" title="statement not covered" >for (var i = 0, arr2 = Array(arr.length); i &lt; arr.length; i++) { <span class="cstat-no" title="statement not covered" >arr2[i] = arr[i]; </span>} <span class="cstat-no" title="statement not covered" ></span>return arr2; </span>} else { <span class="cstat-no" title="statement not covered" >return Array.from(arr); </span>} </span>}
+<span class="fstat-no" title="function not covered">function _toConsumableArray(arr) {</span> <span class="cstat-no" title="statement not covered">if (Array.isArray(arr)) { <span class="cstat-no" title="statement not covered">for (var i = 0, arr2 = Array(arr.length); i &lt; arr.length; i++) { <span class="cstat-no" title="statement not covered">arr2[i] = arr[i]; </span>} <span class="cstat-no" title="statement not covered"></span>return arr2; </span>} else { <span class="cstat-no" title="statement not covered">return Array.from(arr); </span>} </span>}
 &nbsp;
 var isArray = Array.isArray;
 &nbsp;
-<span class="fstat-no" title="function not covered" >function uniteRules(rules, key, newRule, rule) {</span>
-<span class="cstat-no" title="statement not covered" >  if (String(rule.test) !== String(newRule.test) || (newRule.enforce || rule.enforce) &amp;&amp; rule.enforce !== newRule.enforce || newRule.include &amp;&amp; !isSameValue(rule.include, newRule.include) || newRule.exclude &amp;&amp; !isSameValue(rule.exclude, newRule.exclude)) {</span>
-<span class="cstat-no" title="statement not covered" >    return false;</span>
-  } else <span class="cstat-no" title="statement not covered" >if (!rule.test &amp;&amp; !rule.include &amp;&amp; !rule.exclude &amp;&amp; (rule.loader &amp;&amp; rule.loader.split('?')[0]) !== (newRule.loader &amp;&amp; newRule.loader.split('?')[0])) {</span>
+<span class="fstat-no" title="function not covered">function uniteRules(rules, key, newRule, rule) {</span>
+<span class="cstat-no" title="statement not covered">  if (String(rule.test) !== String(newRule.test) || (newRule.enforce || rule.enforce) &amp;&amp; rule.enforce !== newRule.enforce || newRule.include &amp;&amp; !isSameValue(rule.include, newRule.include) || newRule.exclude &amp;&amp; !isSameValue(rule.exclude, newRule.exclude)) {</span>
+<span class="cstat-no" title="statement not covered">    return false;</span>
+  } else <span class="cstat-no" title="statement not covered">if (!rule.test &amp;&amp; !rule.include &amp;&amp; !rule.exclude &amp;&amp; (rule.loader &amp;&amp; rule.loader.split('?')[0]) !== (newRule.loader &amp;&amp; newRule.loader.split('?')[0])) {</span>
     // Don't merge the rule if there isn't any identifying fields and the loaders don't match
-<span class="cstat-no" title="statement not covered" >    return false;</span>
-  } else <span class="cstat-no" title="statement not covered" >if ((rule.include || rule.exclude) &amp;&amp; !newRule.include &amp;&amp; !newRule.exclude) {</span>
+<span class="cstat-no" title="statement not covered">    return false;</span>
+  } else <span class="cstat-no" title="statement not covered">if ((rule.include || rule.exclude) &amp;&amp; !newRule.include &amp;&amp; !newRule.exclude) {</span>
     // Don't merge child without include/exclude to parent that has either
-<span class="cstat-no" title="statement not covered" >    return false;</span>
+<span class="cstat-no" title="statement not covered">    return false;</span>
   }
 &nbsp;
   // newRule.loader should always override
-<span class="cstat-no" title="statement not covered" >  if (newRule.loader) {</span>
-<span class="cstat-no" title="statement not covered" >    var optionsKey = newRule.options ? 'options' : newRule.query &amp;&amp; 'query';</span>
+<span class="cstat-no" title="statement not covered">  if (newRule.loader) {</span>
+<span class="cstat-no" title="statement not covered">    var optionsKey = newRule.options ? 'options' : newRule.query &amp;&amp; 'query';</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    delete rule.use;</span>
-<span class="cstat-no" title="statement not covered" >    delete rule.loaders;</span>
-<span class="cstat-no" title="statement not covered" >    rule.loader = newRule.loader;</span>
+<span class="cstat-no" title="statement not covered">    delete rule.use;</span>
+<span class="cstat-no" title="statement not covered">    delete rule.loaders;</span>
+<span class="cstat-no" title="statement not covered">    rule.loader = newRule.loader;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    if (optionsKey) {</span>
-<span class="cstat-no" title="statement not covered" >      rule[optionsKey] = newRule[optionsKey];</span>
+<span class="cstat-no" title="statement not covered">    if (optionsKey) {</span>
+<span class="cstat-no" title="statement not covered">      rule[optionsKey] = newRule[optionsKey];</span>
     }
-  } else <span class="cstat-no" title="statement not covered" >if ((rule.use || rule.loaders || rule.loader) &amp;&amp; (newRule.use || newRule.loaders)) {</span>
-<span class="cstat-no" title="statement not covered" >    var expandEntry = <span class="fstat-no" title="function not covered" >function expandEntry(loader) {</span></span>
-<span class="cstat-no" title="statement not covered" >      return typeof loader === 'string' ? { loader: loader } : loader;</span>
+  } else <span class="cstat-no" title="statement not covered">if ((rule.use || rule.loaders || rule.loader) &amp;&amp; (newRule.use || newRule.loaders)) {</span>
+<span class="cstat-no" title="statement not covered">    var expandEntry = <span class="fstat-no" title="function not covered">function expandEntry(loader) {</span></span>
+<span class="cstat-no" title="statement not covered">      return typeof loader === 'string' ? { loader: loader } : loader;</span>
     };
     // this is only here to avoid breaking existing tests
-<span class="cstat-no" title="statement not covered" >    var unwrapEntry = <span class="fstat-no" title="function not covered" >function unwrapEntry(entry) {</span></span>
-<span class="cstat-no" title="statement not covered" >      return !entry.options &amp;&amp; !entry.query ? entry.loader : entry;</span>
+<span class="cstat-no" title="statement not covered">    var unwrapEntry = <span class="fstat-no" title="function not covered">function unwrapEntry(entry) {</span></span>
+<span class="cstat-no" title="statement not covered">      return !entry.options &amp;&amp; !entry.query ? entry.loader : entry;</span>
     };
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    var entries = void 0;</span>
-<span class="cstat-no" title="statement not covered" >    if (rule.loader) {</span>
-<span class="cstat-no" title="statement not covered" >      var _optionsKey = rule.options ? 'options' : rule.query &amp;&amp; 'query';</span>
-<span class="cstat-no" title="statement not covered" >      entries = [{ loader: rule.loader }];</span>
+<span class="cstat-no" title="statement not covered">    var entries = void 0;</span>
+<span class="cstat-no" title="statement not covered">    if (rule.loader) {</span>
+<span class="cstat-no" title="statement not covered">      var _optionsKey = rule.options ? 'options' : rule.query &amp;&amp; 'query';</span>
+<span class="cstat-no" title="statement not covered">      entries = [{ loader: rule.loader }];</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >      if (_optionsKey) {</span>
-<span class="cstat-no" title="statement not covered" >        entries[0][_optionsKey] = rule[_optionsKey];</span>
+<span class="cstat-no" title="statement not covered">      if (_optionsKey) {</span>
+<span class="cstat-no" title="statement not covered">        entries[0][_optionsKey] = rule[_optionsKey];</span>
       }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >      delete rule.loader;</span>
+<span class="cstat-no" title="statement not covered">      delete rule.loader;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >      if (_optionsKey) {</span>
-<span class="cstat-no" title="statement not covered" >        delete rule[_optionsKey];</span>
+<span class="cstat-no" title="statement not covered">      if (_optionsKey) {</span>
+<span class="cstat-no" title="statement not covered">        delete rule[_optionsKey];</span>
       }
     } else {
-<span class="cstat-no" title="statement not covered" >      entries = [].concat(rule.use || rule.loaders).map(expandEntry);</span>
+<span class="cstat-no" title="statement not covered">      entries = [].concat(rule.use || rule.loaders).map(expandEntry);</span>
     }
-<span class="cstat-no" title="statement not covered" >    var newEntries = [].concat(newRule.use || newRule.loaders).map(expandEntry);</span>
+<span class="cstat-no" title="statement not covered">    var newEntries = [].concat(newRule.use || newRule.loaders).map(expandEntry);</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    var loadersKey = rule.use || newRule.use ? 'use' : 'loaders';</span>
-<span class="cstat-no" title="statement not covered" >    var resolvedKey = key + '.' + loadersKey;</span>
+<span class="cstat-no" title="statement not covered">    var loadersKey = rule.use || newRule.use ? 'use' : 'loaders';</span>
+<span class="cstat-no" title="statement not covered">    var resolvedKey = key + '.' + loadersKey;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    switch (rules[resolvedKey]) {</span>
+<span class="cstat-no" title="statement not covered">    switch (rules[resolvedKey]) {</span>
       case 'prepend':
-<span class="cstat-no" title="statement not covered" >        rule[loadersKey] = [].concat(_toConsumableArray((0, _differenceWith3.default)(newEntries, entries, uniteEntries)), _toConsumableArray(entries)).map(unwrapEntry);</span>
-<span class="cstat-no" title="statement not covered" >        break;</span>
+<span class="cstat-no" title="statement not covered">        rule[loadersKey] = [].concat(_toConsumableArray((0, _differenceWith3.default)(newEntries, entries, uniteEntries)), _toConsumableArray(entries)).map(unwrapEntry);</span>
+<span class="cstat-no" title="statement not covered">        break;</span>
       case 'replace':
-<span class="cstat-no" title="statement not covered" >        rule[loadersKey] = newRule.use || newRule.loaders;</span>
-<span class="cstat-no" title="statement not covered" >        break;</span>
+<span class="cstat-no" title="statement not covered">        rule[loadersKey] = newRule.use || newRule.loaders;</span>
+<span class="cstat-no" title="statement not covered">        break;</span>
       default:
-<span class="cstat-no" title="statement not covered" >        rule[loadersKey] = (0, _unionWith3.default)(</span>
+<span class="cstat-no" title="statement not covered">        rule[loadersKey] = (0, _unionWith3.default)(</span>
         // Remove existing entries so that we can respect the order of the new
         // entries
         (0, _differenceWith3.default)(entries, newEntries, _isEqual3.default), newEntries, uniteEntries).map(unwrapEntry);
     }
   }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  if (newRule.include) {</span>
-<span class="cstat-no" title="statement not covered" >    rule.include = newRule.include;</span>
+<span class="cstat-no" title="statement not covered">  if (newRule.include) {</span>
+<span class="cstat-no" title="statement not covered">    rule.include = newRule.include;</span>
   }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  if (newRule.exclude) {</span>
-<span class="cstat-no" title="statement not covered" >    rule.exclude = newRule.exclude;</span>
+<span class="cstat-no" title="statement not covered">  if (newRule.exclude) {</span>
+<span class="cstat-no" title="statement not covered">    rule.exclude = newRule.exclude;</span>
   }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  return true;</span>
+<span class="cstat-no" title="statement not covered">  return true;</span>
 }
 &nbsp;
 /**
@@ -625,44 +623,45 @@ var isArray = Array.isArray;
  * Arrays need to be sorted for equality checking
  * but clone them first so as not to disrupt the sort order in tests
  */
-<span class="fstat-no" title="function not covered" >function isSameValue(a, b) {</span>
-<span class="cstat-no" title="statement not covered" >  var _map = [a, b].map(<span class="fstat-no" title="function not covered" >function (value) {</span></span>
-<span class="cstat-no" title="statement not covered" >    return isArray(value) ? [].concat(_toConsumableArray(value)).sort() : value;</span>
+<span class="fstat-no" title="function not covered">function isSameValue(a, b) {</span>
+<span class="cstat-no" title="statement not covered">  var _map = [a, b].map(<span class="fstat-no" title="function not covered">function (value) {</span></span>
+<span class="cstat-no" title="statement not covered">    return isArray(value) ? [].concat(_toConsumableArray(value)).sort() : value;</span>
   }),
       _map2 = _slicedToArray(_map, 2),
       propA = _map2[0],
       propB = _map2[1];
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  return (0, _isEqual3.default)(propA, propB);</span>
+<span class="cstat-no" title="statement not covered">  return (0, _isEqual3.default)(propA, propB);</span>
 }
 &nbsp;
-<span class="fstat-no" title="function not covered" >function uniteEntries(newEntry, entry) {</span>
-<span class="cstat-no" title="statement not covered" >  var loaderNameRe = /^([^?]+)/ig;</span>
+<span class="fstat-no" title="function not covered">function uniteEntries(newEntry, entry) {</span>
+<span class="cstat-no" title="statement not covered">  var loaderNameRe = /^([^?]+)/ig;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  var _entry$loader$match = entry.loader.match(loaderNameRe),</span>
+<span class="cstat-no" title="statement not covered">  var _entry$loader$match = entry.loader.match(loaderNameRe),</span>
       _entry$loader$match2 = _slicedToArray(_entry$loader$match, 1),
       loaderName = _entry$loader$match2[0];
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  var _newEntry$loader$matc = newEntry.loader.match(loaderNameRe),</span>
+<span class="cstat-no" title="statement not covered">  var _newEntry$loader$matc = newEntry.loader.match(loaderNameRe),</span>
       _newEntry$loader$matc2 = _slicedToArray(_newEntry$loader$matc, 1),
       newLoaderName = _newEntry$loader$matc2[0];
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  if (loaderName !== newLoaderName) {</span>
-<span class="cstat-no" title="statement not covered" >    return false;</span>
+<span class="cstat-no" title="statement not covered">  if (loaderName !== newLoaderName) {</span>
+<span class="cstat-no" title="statement not covered">    return false;</span>
   }
 &nbsp;
   // Replace query values with newer ones
-<span class="cstat-no" title="statement not covered" >  (0, _mergeWith3.default)(entry, newEntry);</span>
-<span class="cstat-no" title="statement not covered" >  return true;</span>
+<span class="cstat-no" title="statement not covered">  (0, _mergeWith3.default)(entry, newEntry);</span>
+<span class="cstat-no" title="statement not covered">  return true;</span>
 }
 &nbsp;
 exports.uniteRules = uniteRules;
 exports.uniteEntries = uniteEntries;
 &nbsp;</pre></td></tr>
-</table></pre>
+</tbody></table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Apr 11 2017 16:17:53 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Wed Apr 19 2017 07:53:40 GMT+0000 (UTC)</div>
 </div>
-</body>
-</html>
+
+
+</body></html>
